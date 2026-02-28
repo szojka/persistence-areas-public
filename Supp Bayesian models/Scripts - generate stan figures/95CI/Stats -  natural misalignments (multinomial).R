@@ -87,3 +87,12 @@ output_nat <- data.frame(contingency = c("DL", "SS_n", "SS_y", "ME"),
                          prediction = apply(post_natmis$probs, 3, median),
                          prediction_lwr = apply(post_natmis$probs, 3, quantile, probs = 0.025),
                          prediction_upr = apply(post_natmis$probs, 3, quantile, probs = 0.975))
+
+# find draws for misalignments vs alignments:
+misaligned_draws <- post_natmis$probs[,,1] + post_natmis$probs[, ,4] # 1 is DL, 4 is ME
+median(misaligned_draws)
+quantile(misaligned_draws, probs = c(0.025, 0.975))  # 95% CI
+
+aligned_draws <- post_natmis$probs[,,2] + post_natmis$probs[, ,3] # 2 is absent, 3 is present
+median(aligned_draws)
+quantile(aligned_draws, probs = c(0.025, 0.975))  # 95% CI

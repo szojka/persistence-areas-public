@@ -22,7 +22,7 @@
 # library(patchwork)
 # library(sf)
 
-source("Supp Bayesian models/Scripts - run stan models/95CI/Source - MAIN fitnessdata POST STAN.R")# must run to reset data I used in 'averaged' script.
+source("Supp Bayesian models/Scripts - run stan models/Run models for Bayes figures/95CI/Source - MAIN fitnessdata POST STAN.R") # must run to reset data I used in 'averaged' script.
 
 #----------------
 # Plot

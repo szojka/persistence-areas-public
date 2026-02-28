@@ -12,7 +12,9 @@ This project addressed how persistence and occurrence of four species change acr
 
 All scripts depend on 'Source - MAIN fitness.R'. Each figure script sources all necessary source and stats scripts within it. If one wants to run the source or a stats script independently of the figure scripts, there are hashed out packages at the top that must be loaded for that specific script. Specific descriptions of each script's function are found below. Figures are saved to the 'Figures' folder in the main repository, Tables are saved to the 'Tables' folder in the main repository, and all data used in the scripts are housed within the 'Data' folder in the main repository.
 
-In regards to analyses described in the "Supplementary test of persistence using Bayesian fits from a dynamical Beverton-Holt population model" section of the manuscript, we have a separate README.md that can be found within the Folder "/Supp Bayesian models/".
+In regards to analyses described in the "Test of persistence using Bayesian fits from a Beverton-Holt model" section of the supplemental materials, we have a separate README.md that can be found within the Folder "/Supp Bayesian models/".
+
+Similarly, the supplemental materials that testing the robustness of our results to more permissive persistence thresholds can be found in the sub folder "/Persistence thresholds/", and also has it's own README.md.
 
 # DESCRIPTION OF SCRIPTS:
 
@@ -150,7 +152,7 @@ Precipitation : in cm
 
 # SUPPORTING INFORMATION AND CONTACT:
 
-1. code DOI: 
+1. code DOI: 10.5281/zenodo.17186785
 
 2. although not required, the authors would appreciate if you would notify author Megan Szojka mszojka@uoguelph.ca if you are planning on using this data in a project for publication, as other projects are ongoing.
 

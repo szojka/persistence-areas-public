@@ -22,7 +22,7 @@
 # library(mclogit)
 # library(emmeans)
 
-#source("Scripts - stan persistence/95CI/Source - MAIN fitnessdata POST STAN.R")
+#source("Supp Bayesian models/Scripts - run stan models/Run models for Bayes figures/95CI/Source - MAIN fitnessdata POST STAN.R")
 
 #--------------------------------------------------------------------------.
 # META-POP SCALE (GRIDS)

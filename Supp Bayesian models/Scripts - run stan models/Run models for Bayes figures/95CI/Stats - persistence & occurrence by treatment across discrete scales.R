@@ -20,7 +20,7 @@
 # library(patchwork)
 # library(sf)
 
-source("Supp Bayesian models/Scripts - run stan models/95CI/Source - MAIN fitnessdata POST STAN.R")
+source("Supp Bayesian models/Scripts - run stan models/Run models for Bayes figures/95CI/Source - MAIN fitnessdata POST STAN.R")
 
 #-------------------------------
 # Block w/ & w/out neighbors

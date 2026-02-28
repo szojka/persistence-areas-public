@@ -21,7 +21,7 @@
 # library(sf)
 # library(mclogit)
 
-source("Supp Bayesian models/Scripts - run stan models/95CI/Source - MAIN fitnessdata POST STAN.R")
+source("Supp Bayesian models/Scripts - run stan models/Run models for Bayes figures/95CI/Source - MAIN fitnessdata POST STAN.R")
 
 #--------------------------------------------------------------------------.
 # Data cleaning
